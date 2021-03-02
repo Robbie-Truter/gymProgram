@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Save for later</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="save.css" type="text/css">
+
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+
+
+<body onload="load()">
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>About me</h3>
+            <a href="aboutMe.html">
+            <p class="information"><b>Click here for more<br> information</b></p>
+            </a>
+            
+
+          </div>
+          <div class="col-sm-4">
+            <h3>Home</h3>
+            <a href="index.html">
+            <p class="information"><b>Click here to return to the<br> homepage</b></p>
+            </a>
+            
+          </div>
+          <div class="col-sm-4">
+            <h3>Other websites</h3> 
+            <a href="otherWebsites.html">     
+            <p class="information"><b>Click here too view other amazing<br> websites! </b></p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+      
+          <h1>Save for later</h1>
+          <h3>Paste information here and save</h3>
+          <form>
+              <label for="eCat">Enter the category of the exercise:(E.g.arms)</label>
+              <br>
+              <input type="text" name="eCat" id="eCat" required>
+              <br>
+              <br>
+              <label for="eType">Enter the type of exercise:(E.g.Bicep curls) </label>
+              <br>
+              <input type="text" name="eType" id="eType" required>
+              <br>
+              <br>
+              <label for="eDescript">Paste the exercise description here:</label>
+              <br>
+              <input type="text" name="eDescript" id="eDescript">
+              <br>
+              <br>
+              
+              
+              <button onclick="addBook()">Save for later</button>
+          </form>
+
+          <br>
+          <br>
+
+          <select id="exerciseList" onchange="ChangeActiveUser(this.value)">
+              <option value="">View saved</option>
+          </select>
+
+      <br>
+      <br>
+      <hr class="sub">
+
+      
+
+
+
+
+
+
+
+
+    
+
+<script type="text/javascript" src="save.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>
