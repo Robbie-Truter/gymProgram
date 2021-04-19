@@ -59,25 +59,22 @@ function ChangeActiveUser(indexOfPersonObj)
     exercises[indexOfPersonObj].bio = function() 
     {
         alert(
-            "The exercise category:"
+            "The exercise category:\n"
             +
-            "\n"
-            +
-            this.category
-            +
-            "\n"
+
+            this.category + "\n"
+
             + 
-            "Exerise type is:"
+            "Exerise type is:\n"
+
             +
-            "\n" 
+
+            this.type + "\n"
+
             +
-            this.type
-            +
-            "\n" 
-            +
-            "Description:"
-            +
-            "\n"
+
+            "Description:\n"
+
             +
             this.descript
             
