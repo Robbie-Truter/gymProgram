@@ -19,6 +19,3 @@ index.html , contact.html and save.html has javascript files linked to it.
 
 <img width="1350" alt="All the files" src="https://user-images.githubusercontent.com/65865465/109793755-bb1bf700-7c1d-11eb-9aa9-e4c9a5682820.png">
 
-## Showcase
-<img width="1350" alt="Homepage" src="https://user-images.githubusercontent.com/65865465/109794904-0682d500-7c1f-11eb-891b-db44a4589063.png">
-<img width="1350" alt="Workout example" src="https://user-images.githubusercontent.com/65865465/109794910-084c9880-7c1f-11eb-89da-af8279ce6100.png">
