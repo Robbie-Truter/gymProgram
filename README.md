@@ -1,5 +1,6 @@
 # gymProgram
-In this website I'm sharing a workout routine, giving a detailed description of each exercise and showcasing it wth gifs.
+In this website I'm sharing a workout routine, giving a detailed description of each exercise and showcasing it with gifs.
+This mock website was created for learning some javascript concepts.
 ## Installation
 You can clone my repository using command lines:
 1. On GitHub, navigate to the main page of the repository.
